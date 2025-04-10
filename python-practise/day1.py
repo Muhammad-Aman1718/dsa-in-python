@@ -16,19 +16,41 @@
 #  Create a program that checks if a given number is prime or not.
 
 
+# num = int(input("Enter your number : "))
+
+# if num < 2:
+#     print(f" {num} this number is not prime ")
+# else:
+#     isPrime = True
+#     for i in range(2, int(num**0.5)):
+#         if num % i == 0:
+#             isPrime = False
+#             break
+
+
+# if isPrime:
+#     print(f"{num} is a prime number.")
+# else:
+#     print(f"{num} is not a prime number.")
+
+
+# tableNum = int(input("Enter your number : "))
+# tableRange = int(input("Enter your range : "))
+
+# for i in range(1, tableRange + 1):
+#     result = tableNum * i
+#     print(f"{tableNum} x {i} = {result} ")
+
+
+
+#  Factorial 
+
 num = int(input("Enter your number : "))
+factorial = 1
 
-if num < 2:
-    print(f" {num} this number is not prime ")
-else:
-    isPrime = True
-    for i in range(2, int(num**0.5)):
-        if num % i == 0:
-            isPrime = False
-            break
+for i in range( 1,num + 1 ):
+    factorial *= i
 
 
-if isPrime:
-    print(f"{num} is a prime number.")
-else:
-    print(f"{num} is not a prime number.")
+print(factorial, "this is factorial ")
+
