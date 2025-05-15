@@ -45,12 +45,14 @@
 
 #  Factorial 
 
-num = int(input("Enter your number : "))
-factorial = 1
+# num = int(input("Enter your number : "))
+# factorial = 1
 
-for i in range( 1,num + 1 ):
-    factorial *= i
+# for i in range( 1,num + 1 ):
+#     factorial *= i
 
 
-print(factorial, "this is factorial ")
+# print(factorial, "this is factorial ")
+
+
 
